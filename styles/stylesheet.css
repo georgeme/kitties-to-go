@@ -1,117 +1,55 @@
-/*Styling for navigation*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #cc3300;
+*{
+	box-sizing: border-box;
 }
 
-.navigation {
-  float: left;
+header {
+	height:10em;
+	background-color:blue;
+	color:white;
+	/*margin-left:13%;*/
+	padding:5% 13%;
+}
+header h1 {
+}
+header h3 {
+	font-style:italic;
+}
+nav {
+	background-color: lightgray;
+	color: darkgray;
+	padding:1em 13%;
+}
+section {
+	width:51%;
+	margin-right:1%;
+	padding-left: 13%;
+	float:left;
+}
+	section:first-of-type h4 {
+	  color:blue;
+	}
+	section:first-of-type p {
+	}
+	section:first-of-type p a {
+	}
+	section h5 {
+		color:blue;
+		font-size:1em;
+	}
+	section:last-of-type h4 {
+		color:blue;
+	}
+	section:last-of-type p {
+	}
+	section:last-of-type p a {
+	}
+sidebar {
+	width:20%;
+	float:left;
+	display:inline-block;
+	margin-right:5%;
 }
 
-.navigation a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
-}
-
-.navigation {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navigation a:hover:not(.active) {
-  background-color: #003399;
-}
-
-.active {
-  background-color: #003300;
-}
-
-.navigation {
-  border-right: 2px solid #ffffff;
-}
-
-.navigation:last-child {
-  border-right: none;
-}
-
-/*Styling for Body color background and background image*/
-
-body {
-  background: url("../images/autumn-leaf.png");
-  background-color: #9fdf9f;
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 200px;
-  background-size: 800px 600px
-}
-
-/*Styling for H1 tags*/
-h1 {
-  color: #cc3300;
-  border-style: inset;
-  border-width: 4px;
-  border-color: #e6ffe6;
-  text-align: center;
-  width: 50%;
-}
-
-/*Styling for H3 tags*/
-h3 {
-  color: #cc3300;
-  border-left: 3px solid blue;
-  background-color: #ffff66;
-  text-align: left;
-  width: 50%;
-}
-
-/*Styling for H4 tags*/
-h4 {
-  color: #cc3300;
-  border-style: double;
-  border-width: 8px;
-  border-radius: 12px;
-  border-color: #003399;
-  text-align: center;
-  width: 50%;
-}
-
-/*Styling for ALL paragraphs*/
-p {
-  color: #003399;
-  font-size: 1.25em;
-  font-weight: bold;
-  width: 75%;
-}
-
-/*Styling for the ordered lists*/
-ol {
-  list-style-type: none;
-  padding-top: 5px;
-  padding-left: 35px;
-  background-color: #ffffff;
-  color: #cc3300;
-  border-style: inset;
-  border-width: 4px;
-  border-color: #e6ffe6;
-  width: 50%;
-}
-
-ol {
-  font-size: 1.5em;
-}
-
-/*Styling for the footer text*/
-.footer-text {
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-text {
-  color: #000000;
+footer {
+	clear:both;
 }
