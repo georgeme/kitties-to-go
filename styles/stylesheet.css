@@ -31,12 +31,13 @@ header h3 {
 	justify-content: center;
 }
 
+.banner {
+	width:100%;
+}
 /* Link color styling */
 a {
   color: #008fb3;
 }
-
-
 
 /* Styling for the section titles */
 .black-font {
@@ -78,16 +79,16 @@ section h5 {
 		padding-top: 5%;
 }
 
+.last-left-p {
+	padding-bottom: 30%;
+}
+
 /* Right-side styling for text, image, positioning */
-sidebar {
+.right {
 	width:20%;
 	float:left;
 	display:inline-block;
 	margin-right:5%;
-}
-
-.last-left-p {
-	padding-bottom: 30%;
 }
 
 /* Footer styling for background, text, positioning, links */
