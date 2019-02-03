@@ -15,12 +15,15 @@ header {
 	background-color: #008fb3;
 	color: white;
 	/*margin-left:13%;*/
+  margin: 0;
 	padding: 5% 13%;
 }
 header h1 {
+  margin: 0;
   font-size: 3em;
 }
 header h3 {
+  margin: 0;
 	font-style:italic;
 }
 
@@ -29,13 +32,10 @@ header h3 {
   align-items: center;
 }
 
-article h4 {
+a {
   color: #008fb3;
 }
 
-.black-text {
-  color: #000000;
-}
 .black-font {
   color: #000000;
 }
@@ -43,8 +43,7 @@ article h4 {
 
 nav {
 	background-color: #e6e6e6;
-	color: darkgray;
-	padding:1em 13%;
+	padding: 1em 13%;
 }
 
 .navigation {
@@ -59,24 +58,21 @@ section {
 	padding-left: 13%;
 	float:left;
 }
-	section:first-of-type h4 {
-	  color:blue;
-	}
+
 	section:first-of-type p {
 	}
 	section:first-of-type p a {
 	}
 	section h5 {
-		color:blue;
-		font-size:1em;
+		color: #008fb3;
+	  font-size: 1em;
+    font-weight: lighter;
 	}
-	section:last-of-type h4 {
-		color:blue;
-	}
-	section:last-of-type p {
-	}
-	section:last-of-type p a {
-	}
+
+.first-h5 {
+    font-weight: bold;
+  }
+
 sidebar {
 	width:20%;
 	float:left;
@@ -86,4 +82,16 @@ sidebar {
 
 footer {
 	clear:both;
+}
+
+footer {
+  background-color: #404040;
+	color: white;
+
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
