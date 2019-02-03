@@ -10,7 +10,7 @@ body {
 
 /* Header styling for font, background, placement */
 header {
-	height: 10em;
+	height: 20em;
 	background-color: #008fb3;
 	color: white;
   margin: 0;
@@ -18,7 +18,7 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 3em;
+  font-size: 5em;
 }
 header h3 {
   margin: 0;
@@ -31,6 +31,7 @@ header h3 {
 	justify-content: center;
 }
 
+/* About page top image banner */
 .banner {
 	width:60em;
 }
@@ -103,13 +104,17 @@ list-style-type: none;
 	margin-right:5%;
 }
 
+.week {
+	padding-top: 11%;
+}
+
 /* Footer styling for background, text, positioning, links */
 footer {
 	clear:both;
 }
 
 footer {
-  height: 24em;
+  height: 28em;
   background-color: #404040;
 	color: white;
   padding: 5% 13%;
