@@ -85,9 +85,15 @@ footer {
 }
 
 footer {
+  height: 15em;
   background-color: #404040;
 	color: white;
+  padding: 5% 13%;
+}
 
+#footer-site {
+  display: flex;
+  align-content: center;
 }
 
 .footer-link {
