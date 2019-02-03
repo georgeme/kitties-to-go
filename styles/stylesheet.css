@@ -2,23 +2,57 @@
 	box-sizing: border-box;
 }
 
+html {
+  border-left: 15px solid #e6e6e6;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-	height:10em;
-	background-color:blue;
-	color:white;
+	height: 10em;
+	background-color: #008fb3;
+	color: white;
 	/*margin-left:13%;*/
-	padding:5% 13%;
+	padding: 5% 13%;
 }
 header h1 {
+  font-size: 3em;
 }
 header h3 {
 	font-style:italic;
 }
+
+#heading {
+  display: flex;
+  align-items: center;
+}
+
+article h4 {
+  color: #008fb3;
+}
+
+.black-text {
+  color: #000000;
+}
+.black-font {
+  color: #000000;
+}
+
+
 nav {
-	background-color: lightgray;
+	background-color: #e6e6e6;
 	color: darkgray;
 	padding:1em 13%;
 }
+
+.navigation {
+  color: #404040;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 section {
 	width:51%;
 	margin-right:1%;
