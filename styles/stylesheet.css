@@ -14,7 +14,6 @@ header {
 	height: 10em;
 	background-color: #008fb3;
 	color: white;
-	/*margin-left:13%;*/
   margin: 0;
 	padding: 5% 13%;
 }
@@ -29,7 +28,7 @@ header h3 {
 
 #heading {
   display: flex;
-  align-items: center;
+	flex-direction: column;
 }
 
 a {
@@ -94,6 +93,7 @@ footer {
 #footer-site {
   display: flex;
   align-content: center;
+	flex-direction: column;
 }
 
 .footer-link {
